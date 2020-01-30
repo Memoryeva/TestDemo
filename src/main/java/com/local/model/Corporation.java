@@ -17,7 +17,7 @@ public class Corporation extends Model<Corporation> {
     @TableId(value = "corporation_id", type = IdType.AUTO)
     private Integer corporationId;
 
-    private Integer corporationSuperId;
+    private Integer corporationSuper;
 
     private String corporationName;
 

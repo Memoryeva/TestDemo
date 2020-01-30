@@ -17,7 +17,7 @@ public class Department extends Model<Department> {
     @TableId(value = "department_id", type = IdType.AUTO)
     private Integer departmentId;
 
-    private Integer departmentSuperId;
+    private Integer departmentSuper;
 
     private String departmentName;
 

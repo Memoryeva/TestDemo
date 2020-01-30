@@ -24,7 +24,7 @@ public class CorporationController extends ApiController {
         }});
     }
 
-    @GetMapping("/testCorporation")
+    @GetMapping("/testList")
     R<JSONArray> testList() {
         List<Corporation> list = new ArrayList<>();
         String str = JSON.toJSONStringWithDateFormat(list, "yyyy-MM-dd");

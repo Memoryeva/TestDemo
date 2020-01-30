@@ -18,14 +18,14 @@ jdbc:
 write:
   jdbc:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/local?characterEncoding=utf-8&autoReconnect=true&useSSL=false&tinyInt1isBit=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.144.171.239:3306/local?characterEncoding=utf-8&autoReconnect=true&useSSL=false&tinyInt1isBit=false&serverTimezone=Asia/Shanghai
     username: root
     password: d,>0I8pEfef#
 
 read:
   jdbc:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/local?characterEncoding=utf-8&autoReconnect=true&useSSL=false&tinyInt1isBit=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.144.171.239:3306/local?characterEncoding=utf-8&autoReconnect=true&useSSL=false&tinyInt1isBit=false&serverTimezone=Asia/Shanghai
     username: root
     password: d,>0I8pEfef#
 

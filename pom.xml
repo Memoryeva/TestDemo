@@ -167,7 +167,7 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>6.6.1</version>
+            <version>6.8.17</version>
         </dependency>
         <!-- 增加普罗米修斯的指标收集依赖 -->
         <dependency>
